@@ -2,10 +2,10 @@ FTP Upload in Windows 8 Store Apps / Windows 10 Universal Apps
 
 UWP profile support uploading and downloading content from HTTP servers using:
 
-* Windows.Networking.BackgroundTransfer namespace
-* Windows.Web.Http.HttpClient class
-* System.Net.Http.HttpClient class
-* System.Net.HttpWebRequest class
+* `Windows.Networking.BackgroundTransfer` namespace
+* `Windows.Web.Http.HttpClient` class
+* `System.Net.Http.HttpClient` class
+* `System.Net.HttpWebRequest` class
 
 And downloading content from FTP servers using:
 
@@ -13,15 +13,15 @@ And downloading content from FTP servers using:
 
 However, there is NO official API to upload content to FTP servers.
 
-But using Windows.Networking.Sockets it is easy to create an FTP client to do uploads.
+But using `Windows.Networking.Sockets` it is easy to create an FTP client to do uploads.
 
 On this GitHub project you will find a simple example of how to upload a file to an FTP server.
 
 Features included:
 
 * Connect to FTP server.
-** Using a user name or a password.
-** Using anonymous authentication.
+     * Using a user name or a password.
+     * Using anonymous authentication.
 * Upload of `byte[]` arrays.
 * Download of `byte[]` arrays.
 
